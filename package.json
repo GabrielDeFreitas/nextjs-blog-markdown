@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
+    "flowbite": "^2.2.1",
+    "flowbite-react": "^0.7.2",
     "gray-matter": "^4.0.3",
     "markdown-to-jsx": "^7.3.2",
     "next": "14.0.4",

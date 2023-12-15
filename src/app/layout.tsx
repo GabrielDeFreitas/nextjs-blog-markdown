@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import Image from 'next/image'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,10 +16,34 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+
+  const header = (
+    <header className="mx-auto  max-w-2xl px-6">
+    <div className="text-center bg-slate-800 p-8 my-6 rounded-md">
+      <Link href="/">
+        <h1 className="text-2xl text-white font-bold mt-4 transition duration-300 hover:underline">
+          Next.js Blog
+        </h1>
+      </Link>
+      <p className="text-slate-300">🤟 Welcome to my tech blog. 💻</p>
+    </div>
+  </header>
+  );
+
+  const footer = (
+    <footer className="mx-auto  max-w-2xl px-6">
+      <div className="border-t border-slate-400 mt-12 py-6 text-center text-slate-400">
+        <h3>Next.js Footer</h3>
+      </div>
+    </footer>
+  );
+
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main className="mx-auto border border-red-500 max-w-2xl">{children}</main>
+        {header}
+        {children}
+        {footer}
       </body>
     </html>
   )

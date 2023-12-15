@@ -17,6 +17,7 @@ const config: Config = {
   },
   plugins: [
     require('@tailwindcss/typography'),
+    require("flowbite/plugin")
   ],
 }
 export default config

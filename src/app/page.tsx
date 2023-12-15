@@ -10,7 +10,9 @@ const HomePage = () => {
     />
   ))
 
-  return <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>{postPreview}</div>
+  return <main className="mx-auto max-w-2xl px-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+    {postPreview}
+  </main>
 }
 
 export default HomePage

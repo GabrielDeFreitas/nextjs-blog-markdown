@@ -2,6 +2,8 @@
 title: "Getting Started with AWS"
 subtitle: "Create an AWS account and set up CLI/SDK access."
 date: "2020-12-27"
+author: "Lorem Ipsum"
+badge: "Front-end"
 ---
 
 "Cloud computing" plays a vital role in the creation of software products and services. It's also one of the most highly sought-after skills in the tech industry.
@@ -103,7 +105,7 @@ Finally, to use AWS directly from your application code, you need to download th
 The SDKs can be configured in different ways as well, but by default it usually uses the same profiles and credentials stored by your `aws configure`.
 
 
-### That's it! 
+### That's it!
 
 You're all set to start using AWS.
 
