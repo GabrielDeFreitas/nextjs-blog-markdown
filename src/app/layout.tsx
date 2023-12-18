@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Roboto } from 'next/font/google';
 import './globals.css'
 import Link from 'next/link'
+import NextNProgressClient from '../../components/NextNProgressClient';
 
 const roboto = Roboto({
   weight: ['300', '400', '700'],
@@ -45,6 +46,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={roboto.className}>
+        <NextNProgressClient/>
         {header}
         {children}
         {footer}
