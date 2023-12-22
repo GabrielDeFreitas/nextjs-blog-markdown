@@ -1,3 +1,8 @@
+## Next.js Blog Markdown 
+
+The project consists of a blog developed using Next.js, where posts are created and managed through markdown files. 
+Integration with Netlify CMS makes creating new posts easier and automated, simplifying the process of updating and publishing content.
+
 ## Deploy on Netlify 
 
 Open deploy [nextjs-blog-markdown](https://nextjs-blog-markdown.netlify.app/)
