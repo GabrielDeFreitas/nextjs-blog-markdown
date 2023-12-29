@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: GabrielDeFreitas/nextjs-blog-markdown
+  base_url: https://nextjs-blog-markdown.netlify.app/
   squash_merges: true
   branch: master # Branch to update (optional; defaults to master)
   auth_endpoint: api/auth/
