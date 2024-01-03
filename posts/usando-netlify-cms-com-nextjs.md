@@ -5,7 +5,7 @@ date: '2023-12-29T11:49:15-03:00'
 image: /images/sanji.png
 subtitle: Como utilizar um CMS super simples como criar Pull Requests no GitHub
 author: Gabriel Freitas
-badge: Netlify CMS
+badge: Netlify
 ---
 # Netlify CMS
 
