@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Netlify CMS
+title: Getting Started with Netlify CMS
 date: '2023-12-29'
-subtitle: Netlify CMS
+subtitle: Create an AWS account and set up CLI/SDK access.
 author: Gabriel Freitas
 badge: CMS
 ---
